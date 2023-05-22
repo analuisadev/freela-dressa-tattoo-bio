@@ -62,8 +62,8 @@ section {
 }
 
 section button {
-    width: 24.3rem;
-    height: 4.4rem;
+    width: 25.6rem;
+    height: 5rem;
     background-color: transparent;
     border: .1rem solid var(--White);
     border-radius: 1.0rem;
@@ -77,4 +77,59 @@ a {
     text-decoration: none;
     color: var(--White);
     font-size: 1.6rem;
+}
+
+.line {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-Effect {
+    animation: blinkCursor 705ms steps(40) infinite normal, typing 1s steps(40) 1s normal both;
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right: 2px solid white;
+    }
+
+    to {
+        border-right: transparent;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 6.2em;
+    }
+}
+
+.shake {
+    animation: shake .2s infinite;
+}
+
+@keyframes shake {
+    0% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: .6rem;
+    }
+
+    50% {
+        margin-left: 0;
+    }
+
+    75% {
+        margin-left: -.6rem;
+    }
+
+    100% {
+        margin-left: 0;
+    }
 }
