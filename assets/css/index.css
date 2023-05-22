@@ -62,8 +62,8 @@ section {
 }
 
 section button {
-    width: 28rem;
-    height: 5.6rem;
+    width: 34rem;
+    height: 7rem;
     background-color: transparent;
     border: .1rem solid var(--White);
     border-radius: 1.0rem;
@@ -108,28 +108,14 @@ a {
     }
 }
 
-.shake {
-    animation: shake .2s infinite;
+@media screen and (min-width: 768px) {
+    section button {
+        width: 50rem;
+    }
 }
 
-@keyframes shake {
-    0% {
-        margin-left: 0;
-    }
-
-    25% {
-        margin-left: .6rem;
-    }
-
-    50% {
-        margin-left: 0;
-    }
-
-    75% {
-        margin-left: -.6rem;
-    }
-
-    100% {
-        margin-left: 0;
+@media screen and (min-width: 912px) {
+    section button {
+        width: 50rem;
     }
 }
