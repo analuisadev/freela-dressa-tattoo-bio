@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Trabalho freelancer voluntário para a organização de links importantes para uma tatuadora iniciante.
 
-- [Acesse o projeto finalizado, online](https://analuisadev.github.io/Github-Finder/)
+- [Acesse o projeto finalizado, online]([https://analuisadev.github.io/Github-Finder/](https://dressa-tattoo-bio.netlify.app/))
 
 ## :memo: Licença
 
